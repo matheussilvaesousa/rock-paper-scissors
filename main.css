@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+#content #title {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 2vh;
+  max-width: 400px;
+  width: 50vw;
+}
+
+#content #game {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 50vw;
+}
+
+#content #game #score {
+  font-size: 40px;
+  margin-top: 2vh;
+}
+
+#content #game #options {
+  margin-top: 4vh;
+}
+
+#content #game #options button {
+  background-color: rgb(46, 45, 45);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px #b4b4b4;
+  color: rgb(228, 228, 228);
+  font-size: 25px;
+  height: 50px;
+  margin: 0 10px;
+  width: 124px;
+}
+
+#content #game #message {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-top: 3vh;
+  width: 400px;
+}
+#content #game #settings {
+  margin-top: 3vh;
+}
+
+#content #game #settings button {
+  background-color: white;
+  border: rgb(196, 196, 196);
+  border-radius: 2px;
+  box-shadow: 3px 3px 5px #b4b4b4;
+  font-size: 20px;
+}
+
+#content #game #settings button:hover {
+  background-color: rgb(199, 199, 199);
+  color: #000000;
+}
